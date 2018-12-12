@@ -1,0 +1,23 @@
+{% extends 'base.twig' %}
+
+{% block title %}Trainers{% endblock %}
+
+{% block row %}
+
+    <div class="card-deck">
+        {% for trainer in trainers %}
+        <div class="col-md-3">
+            <div class="card shadow-sm mb-3">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">{{ trainer.name }}</h4>
+                </div>
+                <img class="card-img-top" src="{{ trainer.picture }}" style="" alt="">
+                <div class="card-body">
+                    <a class="btn btn-lg btn-block btn-outline-primary" href="/trainers/{{ trainer.name }}">team</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

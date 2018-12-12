@@ -1,0 +1,33 @@
+{% extends 'base.twig' %}
+
+{% block title %}Trainer : {{ trainer.name }} <img src="{{ trainer.picture }}" style="height: 100px;"/>{% endblock %}
+
+{% block row %}
+
+    <div class="card-deck">
+        {% for team in trainer.team %}
+        <div class="col-md-3">
+            <div class="card shadow-sm mb-3">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">{{ team.type.name }} <span class="badge badge-secondary">Level {{ team.level }}</span></h4>
+                </div>
+                <img class="card-img-top" src="{{ team.type.sprites.front_default }}" alt="Card image cap">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        HP :
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: {{ team.hpPercent }}%" aria-valuenow="{{ team.hp }}" aria-valuemin="0" aria-valuemax="{{ team.type.stats.hp }}"></div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">Base stats : <span class="badge badge-primary">Speed : {{ team.type.stats.speed }}</span>
+                        <span class="badge badge-primary">Attack : {{ team.type.stats.attack }}</span>
+                        <span class="badge badge-primary">Defense : {{ team.type.stats.defense }}</span>
+                        <span class="badge badge-primary">HP : {{ team.type.stats.hp }}</span></li>
+                </ul>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
