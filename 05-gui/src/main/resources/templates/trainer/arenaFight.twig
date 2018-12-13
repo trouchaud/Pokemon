@@ -1,0 +1,13 @@
+{% extends '../base.twig' %}
+
+{% block title %}Arena{% endblock %}
+
+{% block row %}
+
+    {% render '/trainers/'~trainer.name~'/arena' with {name: 'Jtwig'} %}
+
+
+    <h1 class="pt-md-5">My team</h1>
+    {% render '/team/'~trainer.name with {name: 'Jtwig'} %}
+
+{% endblock %}

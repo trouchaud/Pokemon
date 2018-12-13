@@ -1,11 +1,5 @@
-{% extends 'base.twig' %}
-
-{% block title %}Trainer : {{ trainer.name }} <img src="{{ trainer.picture }}" style="height: 100px;"/>{% endblock %}
-
-{% block row %}
-
-    <div class="card-deck">
-        {% for team in trainer.team %}
+<div class="card-deck">
+    {% for team in trainer.team %}
         <div class="col-md-3">
             <div class="card shadow-sm mb-3">
                 <div class="card-header">
@@ -19,15 +13,13 @@
                             <div class="progress-bar" role="progressbar" style="width: {{ team.hpPercent }}%" aria-valuenow="{{ team.hp }}" aria-valuemin="0" aria-valuemax="{{ team.type.stats.hp }}"></div>
                         </div>
                     </li>
-                    <li class="list-group-item">Base stats : <span class="badge badge-primary">Speed : {{ team.type.stats.speed }}</span>
-                        <span class="badge badge-primary">Attack : {{ team.type.stats.attack }}</span>
-                        <span class="badge badge-primary">Defense : {{ team.type.stats.defense }}</span>
-                        <span class="badge badge-primary">HP : {{ team.type.stats.hp }}</span></li>
+                    <li class="list-group-item">Base stats : <span class="badge badge-primary">Speed : {{ team.type.stats.speed + team.level }}</span>
+                        <span class="badge badge-primary">Attack : {{ team.type.stats.attack + team.level }}</span>
+                        <span class="badge badge-primary">Defense : {{ team.type.stats.defense + team.level }}</span>
+                        <span class="badge badge-primary">HP : {{ team.type.stats.hp + team.level }}</span></li>
                 </ul>
 
             </div>
         </div>
-        {% endfor %}
-    </div>
-
-{% endblock %}
+    {% endfor %}
+</div>
