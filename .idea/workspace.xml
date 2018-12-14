@@ -1,7 +1,397 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="315fb016-15cf-4a67-ad5b-94998a08ce54" name="Default Changelist" comment="" />
+    <list default="true" id="315fb016-15cf-4a67-ad5b-94998a08ce54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/ifiPokemon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__javax_jms_javax_jms_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_15_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_15_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_15_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_jtwig_jtwig_core_5_86_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_jtwig_jtwig_reflection_5_86_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_jtwig_jtwig_render_extension_5_86_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_jtwig_jtwig_spring_5_87_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_jtwig_jtwig_spring_boot_starter_5_87_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_jtwig_jtwig_web_5_86_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_ow2_asm_asm_analysis_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_ow2_asm_asm_util_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_parboiled_parboiled_core_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_parboiled_parboiled_java_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_jms_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_springframework_spring_websocket_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-gui/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/TrainerWebApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/bo/HPNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/config/JtwigConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/config/MessagingConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/config/RestConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/config/WebSocketConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/controller/FightController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/controller/PokemonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/controller/TrainerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/Sprites.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/trainers/service/TrainerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/chen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/chen2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/abra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/action-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/augmented-reality-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/augmented-reality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/backpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/battle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/bellsprout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/blue-team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/bracelet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/bullbasaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/candy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/caterpie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/charmander.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/combat-power.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/compass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/crown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/dratini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/eevee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/egg-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/egg-incubator-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/egg-incubator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/fight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/fist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/footprints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/gear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/gotcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/hyper-potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/incense-score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/incense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/incenses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/insignia-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/insignia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/instinct-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/instinct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/jigglypuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/lucky-egg-score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/lucky-egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/lucky-eggs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/lure-module-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/lure-module-score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/lure-module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/mankey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/mega-ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/meowth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/mew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/money-bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/mystic-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/mystic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/open-pokeball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pawprints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pidgey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pikachu-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pikachu-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pikachu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/player-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pointer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokebag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokeball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokeballs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokecoin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokecoins-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokecoins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokedex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokestop-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokestop-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokestop-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/pokestop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/psyduck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/rattata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/razz-berry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/red-team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/revive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/scene.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/smartphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/snorlax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/squirtle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/star-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/stardust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/super-potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/superball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/tornado-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/tornado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/ultra-ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/up-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/valor-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/valor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/venonat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/weedle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/yellow-team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/icons/zubat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/json/120.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/json/121.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/json/150.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/static/json/25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/base.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/fight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/index.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/layout/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/layout/header.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/layout/nav.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/pokemons.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/register.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/trainer/arenaFight.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/trainer/fightTrainer.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/trainer/team.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/trainer/trainer.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/main/resources/templates/trainer/trainers.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/test/java/com/ifi/tp/pokemonTypes/service/PokemonServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/src/test/java/com/ifi/tp/trainers/service/TrainerServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/TrainerWebApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/bo/HPNotification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/config/JtwigConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/config/MessagingConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/config/RestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/config/WebSocketConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/controller/FightController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/controller/PokemonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/controller/TrainerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/pokemonTypes/bo/PokemonType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/pokemonTypes/bo/Sprites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/pokemonTypes/bo/Stats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/pokemonTypes/service/PokemonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/trainers/bo/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/trainers/bo/Trainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/trainers/service/TrainerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/com/ifi/tp/trainers/service/TrainerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/chen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/chen2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/abra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/action-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/augmented-reality-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/augmented-reality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/backpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/battle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/bellsprout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/blue-team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/bracelet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/bullbasaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/candy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/caterpie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/charmander.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/combat-power.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/compass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/crown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/dratini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/eevee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/egg-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/egg-incubator-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/egg-incubator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/fight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/fist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/footprints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/gear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/gotcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/hyper-potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/incense-score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/incense.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/incenses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/insignia-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/insignia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/instinct-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/instinct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/jigglypuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/lucky-egg-score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/lucky-egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/lucky-eggs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/lure-module-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/lure-module-score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/lure-module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/mankey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/mega-ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/meowth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/mew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/money-bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/mystic-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/mystic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/open-pokeball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pawprints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pidgey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pikachu-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pikachu-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pikachu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/player-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pointer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokebag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokeball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokeballs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokecoin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokecoins-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokecoins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokedex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokestop-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokestop-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokestop-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/pokestop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/psyduck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/rattata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/razz-berry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/red-team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/revive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/scene.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/smartphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/snorlax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/squirtle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/star-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/stardust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/super-potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/superball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/tornado-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/tornado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/ultra-ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/up-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/valor-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/valor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/venonat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/weedle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/yellow-team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/icons/zubat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/json/120.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/json/121.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/json/150.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/static/json/25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/base.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/fight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/index.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/layout/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/layout/header.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/layout/nav.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/pokemons.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/register.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/trainer/arenaFight.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/trainer/fightTrainer.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/trainer/team.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/trainer/trainer.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/classes/templates/trainer/trainers.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/test-classes/com/ifi/tp/pokemonTypes/service/PokemonServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/target/test-classes/com/ifi/tp/trainers/service/TrainerServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-gui/tp-05-gui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,35 +434,33 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-21503602">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/PokemonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/TrainerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-gui/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -81,7 +469,7 @@
         <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/TrainerWebApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -92,12 +480,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/Stats.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/bo/HPNotification.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -119,7 +517,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -134,53 +532,52 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1360" />
     <option name="y" value="36" />
     <option name="width" value="1366" />
-    <option name="height" value="365" />
+    <option name="height" value="731" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -188,8 +585,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -198,8 +595,8 @@
               <item name="ifi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -209,8 +606,8 @@
               <item name="tp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -221,32 +618,8 @@
               <item name="bo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
-              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ifi" type="462c0819:PsiDirectoryNode" />
-              <item name="tp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
-              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ifi" type="462c0819:PsiDirectoryNode" />
-              <item name="tp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -257,8 +630,8 @@
               <item name="pokemonTypes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="fontSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fontSpring" type="462c0819:PsiDirectoryNode" />
               <item name="05-gui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -268,69 +641,19 @@
               <item name="tp" type="462c0819:PsiDirectoryNode" />
               <item name="pokemonTypes" type="462c0819:PsiDirectoryNode" />
               <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
-              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ifi" type="462c0819:PsiDirectoryNode" />
-              <item name="tp" type="462c0819:PsiDirectoryNode" />
-              <item name="pokemonTypes" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
-              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ifi" type="462c0819:PsiDirectoryNode" />
-              <item name="tp" type="462c0819:PsiDirectoryNode" />
-              <item name="trainers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
-              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ifi" type="462c0819:PsiDirectoryNode" />
-              <item name="tp" type="462c0819:PsiDirectoryNode" />
-              <item name="trainers" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ifiPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ifiPokemon" type="462c0819:PsiDirectoryNode" />
-              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ifi" type="462c0819:PsiDirectoryNode" />
-              <item name="tp" type="462c0819:PsiDirectoryNode" />
-              <item name="trainers" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05-gui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -357,27 +680,23 @@
       <option name="presentableId" value="Default" />
       <updated>1544617640083</updated>
       <workItem from="1544617641892" duration="1130000" />
+      <workItem from="1544709815049" duration="1651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1130000" />
+    <option name="totallyTimeSpent" value="2781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="36" width="1366" height="731" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -385,15 +704,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" weight="0.32954547" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32954547" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32954547" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,9 +726,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/Stats.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/config/MessagingConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -415,22 +735,41 @@
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/config/WebSocketConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/bo/HPNotification.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/FightController.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/trainers/bo/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/PokemonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/TrainerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-gui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/TrainerWebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonService.java">
@@ -439,39 +778,20 @@
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/TrainerWebApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/trainers/bo/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/Stats.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/Sprites.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/TrainerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-gui/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/controller/PokemonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/05-gui/src/main/java/com/ifi/tp/bo/HPNotification.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
