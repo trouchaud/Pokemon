@@ -1,0 +1,9 @@
+{% extends "../default/base.twig" %}
+
+{% block title %}My Fight History{% endblock %}
+
+{% block row %}
+    {% for fight in fights %}
+        {% include "tableHistory.twig" with { details: fight.details, fight: fight} %}
+    {% endfor %}
+{% endblock %}

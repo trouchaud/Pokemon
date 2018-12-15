@@ -4,6 +4,8 @@
 
 {% block row %}
 
+    <a class="btn btn-lg btn-block btn-outline-primary" href="/fight/{{ user }}">My Fight History</a>
+
     {% render '/trainers/'~trainer.name~'/arena' with {name: 'Jtwig'} %}
 
     <h1 class="pt-md-5">My team</h1>
