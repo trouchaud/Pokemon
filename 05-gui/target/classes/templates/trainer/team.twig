@@ -1,5 +1,9 @@
 <div class="card-deck">
-    {% for team in trainer.team %}
+    {% for team in teams %}
+
+        {% set globalHp = team.type.stats.hp + team.level %}
+        {% set pourcentageHp = team.hp / globalHp * 100 %}
+
         <div class="col-md-3">
             <div class="card shadow-sm mb-3">
                 <div class="card-header">
@@ -10,7 +14,7 @@
                     <li class="list-group-item">
                         HP :
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: {{ team.hpPercent }}%" aria-valuenow="{{ team.hp }}" aria-valuemin="0" aria-valuemax="{{ team.type.stats.hp }}"></div>
+                            <div class="progress-bar" role="progressbar" style="width: {{ pourcentageHp }}%" aria-valuenow="{{ team.hp }}" aria-valuemin="0" aria-valuemax="{{ team.type.stats.hp }}"></div>
                         </div>
                     </li>
                     <li class="list-group-item">Base stats : <span class="badge badge-primary">Speed : {{ team.type.stats.speed + team.level }}</span>

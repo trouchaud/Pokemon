@@ -1,14 +1,20 @@
+{% if app.request.session.user %}
+    {% set user = app.request.session.user %}
+{% else %}
+    {% set user = "Ash" %}
+{% endif %}
+
 <!DOCTYPE html>
 <html>
     <head>
         {% block head %}
-            {% include "layout/header.twig" %}
+            {% include "../layout/header.twig" %}
         {% endblock %}
     </head>
     <body>
         <header>
             {% block header %}
-                {% include "layout/nav.twig" %}
+                {% include "../layout/nav.twig" %}
             {% endblock %}
         </header>
         {% block body %}

@@ -15,7 +15,11 @@
             <img src="/icons/pikachu.png" style="width: 50px;"/>
             Pokemons
         </a>
-        <a class="py-2 d-none d-md-inline-block" href="/arena/Ash">
+        {% if user %}
+            <a class="py-2 d-none d-md-inline-block" href="/arena/{{ user }}">
+        {% else %}
+            <a class="py-2 d-none d-md-inline-block" href="#" disabled>
+        {% endif %}
             <img src="/icons/fight.png" style="width: 50px;"/>
             Fight !
         </a>

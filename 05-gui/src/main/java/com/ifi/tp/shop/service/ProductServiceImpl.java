@@ -1,6 +1,7 @@
 package com.ifi.tp.shop.service;
 
 import com.ifi.tp.shop.bo.Product;
+import com.ifi.tp.trainers.bo.Trainer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

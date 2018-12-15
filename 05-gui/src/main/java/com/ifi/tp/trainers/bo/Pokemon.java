@@ -4,6 +4,8 @@ import com.ifi.tp.pokemonTypes.bo.PokemonType;
 
 public class Pokemon {
 
+    private int id;
+
     private int pokemonNumber;
 
     private int level;
@@ -46,5 +48,13 @@ public class Pokemon {
 
     public int getHpPercent(){
         return 100 * this.hp / this.type.getStats().getHp();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

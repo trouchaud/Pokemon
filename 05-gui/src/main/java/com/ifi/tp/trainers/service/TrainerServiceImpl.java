@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.ifi.tp.bo.HPNotification;
+import com.ifi.tp.shop.service.ProductService;
 import com.ifi.tp.trainers.bo.Trainer;
 
 import com.ifi.tp.pokemonTypes.service.PokemonService;
@@ -18,6 +19,7 @@ import org.springframework.web.client.RestTemplate;
 public class TrainerServiceImpl implements TrainerService {
 
     private PokemonService pokemonService;
+    private ProductService productService;
 
     private RestTemplate restTemplate;
 
@@ -40,10 +42,19 @@ public class TrainerServiceImpl implements TrainerService {
         return this.enrich(trainer);
     }
 
+    @Override
+    public void putTrainer(Trainer trainer) {
+        var url = trainerServiceUrl + "/trainers";
+        restTemplate.put(url, trainer);
+    }
+
     private Trainer enrich(Trainer trainer){
         trainer.getTeam()
                 .stream()
                 .forEach(pokemon -> pokemon.setType(pokemonService.getPokemonType(pokemon.getPokemonNumber())));
+        trainer.getInventory()
+                .stream()
+                .forEach(product -> product.setDetail(productService.getProduct(product.getProductId())));
         return trainer;
     }
 
@@ -55,6 +66,11 @@ public class TrainerServiceImpl implements TrainerService {
     @Autowired
     void setPokemonService(PokemonService pokemonService) {
         this.pokemonService = pokemonService;
+    }
+
+    @Autowired
+    void setProductService(ProductService productService) {
+        this.productService = productService;
     }
 
     @Autowired

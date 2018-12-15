@@ -1,4 +1,4 @@
-{% extends '../base.twig' %}
+{% extends '../default/base.twig' %}
 
 {% block title %}Shop{% endblock %}
 
@@ -11,10 +11,11 @@
                     <div class="card-header">
                         <h4 class="my-0 font-weight-normal">{{ product.name }}</h4>
                     </div>
-                    <img class="card-img-top" src="#" style="" alt="">
+                    <img class="card-img-top img-product" src="{{ product.sprite }}" style="" alt="">
                     <div class="card-body">
                         <p class="card-text">{{ product.property }}</p>
-                        <a class="btn btn-lg btn-block btn-outline-primary" href="#">Buy</a>
+                        <p class="card-text">Price: {{ product.price }}$</p>
+                        <a class="btn btn-lg btn-block btn-outline-primary" href="/shop/{{ user }}/product/{{ product.id }}">Buy</a>
                     </div>
                 </div>
             </div>

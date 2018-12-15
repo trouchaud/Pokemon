@@ -1,4 +1,4 @@
-{% extends '../base.twig' %}
+{% extends '../default/base.twig' %}
 
 {% block title %}Arena{% endblock %}
 
@@ -10,6 +10,6 @@
     {% render '/team/'~trainer.name with {name: 'Jtwig'} %}
 
     <h1 class="pt-md-5">Inventaire</h1>
-    {# TO DO #}
+    {% render '/trainers/'~trainer.name~'/inventory' with {name: 'Jtwig'} %}
 
 {% endblock %}

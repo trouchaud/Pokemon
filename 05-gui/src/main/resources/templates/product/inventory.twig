@@ -1,0 +1,26 @@
+{% if app.request.session.user %}
+    {% set user = app.request.session.user %}
+{% else %}
+    {% set user = "Ash" %}
+{% endif %}
+
+PokeDollard: {{ trainer.money }}$
+<div class="card-deck">
+    {% for product in products %}
+        {% if product.quantity > 0 %}
+            <div class="col-md-3">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">{{ product.quantity }} - {{ product.detail.name }}</h4>
+                    </div>
+                    <img class="card-img-top img-product" src="{{ product.detail.sprite }}" style="" alt="">
+                    <div class="card-body">
+                        <p class="card-text">{{ product.detail.property }}</p>
+                        <a class="btn btn-lg btn-block btn-outline-primary"
+                           href="/shop/{{ user }}/product/{{ product.detail.id }}/use">Use</a>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
