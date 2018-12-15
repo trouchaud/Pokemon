@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f82ccf8-329d-43fc-a3c5-1129675aa975" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/default/erreur.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product/buy.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product/inventory.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/default/base.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/default/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/default/base.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/article.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/nav.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/nav.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pokemons.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pokemons.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products/shop.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/shop.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/arenaFight.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/arenaFight.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/team.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/team.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainers.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/trainers.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/TrainerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/TrainerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/bo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/bo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/shop/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/bo/Trainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/trainers/service/TrainerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/base.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout/article.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout/header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout/nav.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout/nav.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/pokemons.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/pokemons.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/products/shop.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/arenaFight.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/arenaFight.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/team.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/team.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/trainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/trainer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/trainers.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/trainers.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,9 +94,9 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.107" value="2" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,7 +106,7 @@
           <entry key="java" value="71" />
           <entry key="json" value="8" />
           <entry key="png" value="23" />
-          <entry key="twig" value="43" />
+          <entry key="twig" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -160,7 +116,7 @@
           <entry key="Image" value="23" />
           <entry key="JAVA" value="71" />
           <entry key="JSON" value="8" />
-          <entry key="Twig" value="43" />
+          <entry key="Twig" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -169,7 +125,7 @@
           <entry key="dummy" value="36" />
           <entry key="java" value="2847" />
           <entry key="properties" value="2" />
-          <entry key="twig" value="1656" />
+          <entry key="twig" value="1710" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -178,45 +134,18 @@
           <entry key="JAVA" value="2847" />
           <entry key="PLAIN_TEXT" value="36" />
           <entry key="Properties" value="2" />
-          <entry key="Twig" value="1656" />
+          <entry key="Twig" value="1710" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="42" />
-              <folding>
-                <element signature="e#895#931#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
-              <folding>
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -233,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="493">
               <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -251,11 +180,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/inventory.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/default/base.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -265,9 +212,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
               <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -275,7 +219,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="1887">
               <caret line="129" column="58" selection-start-line="129" selection-start-column="58" selection-end-line="129" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -287,7 +231,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
+            <state relative-caret-position="238">
               <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#916#917#0" expanded="true" />
@@ -353,10 +297,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout/nav.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/register.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/base.twig" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/products/shop.twig" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/service/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/default/base.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/products/buy.twig" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/default/erreur.twig" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" />
@@ -365,12 +307,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/product/use.twig" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Product.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/trainer/team.twig" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/product/inventory.twig" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.twig" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/default/base.twig" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig" />
       </list>
     </option>
   </component>
@@ -397,10 +341,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-92" />
-    <option name="y" value="481" />
-    <option name="width" value="1340" />
-    <option name="height" value="728" />
+    <option name="y" value="43" />
+    <option name="width" value="1330" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -408,8 +351,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -554,6 +495,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -564,7 +507,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544841101610" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544841231037" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api-pokemon" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -625,18 +568,19 @@
       <workItem from="1544711845985" duration="383000" />
       <workItem from="1544712725706" duration="413000" />
       <workItem from="1544782394553" duration="11389000" />
-      <workItem from="1544816430545" duration="23382000" />
+      <workItem from="1544816430545" duration="23991000" />
+      <workItem from="1544885205314" duration="968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73483000" />
+    <option name="totallyTimeSpent" value="75060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="348" width="1366" height="731" extended-state="6" />
+    <frame x="0" y="36" width="1366" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24318182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2469697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -769,22 +713,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/article.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/article.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/default/erreur.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -824,9 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,13 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/default/base.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -898,52 +820,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        <state relative-caret-position="646">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
-          <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#895#931#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="697">
+          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -956,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="493">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -973,7 +863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
+        <state relative-caret-position="1887">
           <caret line="129" column="58" selection-start-line="129" selection-start-column="58" selection-end-line="129" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -981,12 +871,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer/team.twig">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -994,7 +887,35 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/inventory.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/default/base.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer/team.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product/useConsume.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
         </state>
       </provider>
     </entry>
