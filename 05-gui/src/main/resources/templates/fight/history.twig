@@ -4,6 +4,7 @@
 
 {% block row %}
     {% for fight in fights %}
-        {% include "tableHistory.twig" with { details: fight.details, fight: fight} %}
+        <a class="btn btn-lg btn-block btn-outline-danger col-sm-2" href="/fight/engage/{{ user }}/{{ fight.nameFighter2 }}">New Fight</a>
+        {% include "tableHistory.twig" with { details: fight.details} %}
     {% endfor %}
 {% endblock %}

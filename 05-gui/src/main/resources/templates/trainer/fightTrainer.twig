@@ -1,3 +1,9 @@
+{% if app.request.session.user %}
+    {% set user = app.request.session.user %}
+{% else %}
+    {% set user = "Ash" %}
+{% endif %}
+
 <h1 class="pt-md-5">Other fighters</h1>
 
 <div class="card-deck">
@@ -9,8 +15,8 @@
                 </div>
                 <img class="card-img-top" src="{{ trainer.picture }}" style="" alt="">
                 <div class="card-body">
-                    <a class="btn btn-lg btn-block btn-outline-danger" href="/trainers/{{ trainer.name }}">Fight</a>
-                    <a class="btn btn-lg btn-block btn-outline-primary" href="#">Fight History</a>
+                    <a class="btn btn-lg btn-block btn-outline-danger" href="/fight/engage/{{ user }}/{{ trainer.name }}">Fight</a>
+                    <a class="btn btn-lg btn-block btn-outline-primary" href="/fight/{{ user }}/{{ trainer.name }}">Fight History</a>
                 </div>
             </div>
         </div>

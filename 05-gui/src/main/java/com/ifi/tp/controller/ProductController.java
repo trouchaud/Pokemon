@@ -53,7 +53,7 @@ public class ProductController {
     }
 
     @PostMapping(value = "/shop/{name}/product/{productId}")
-    String registerNewTrainer(HttpServletRequest request,
+    String buyProduct(HttpServletRequest request,
                               ModelMap model,
                               @PathVariable String name,
                               @PathVariable int productId,
@@ -74,7 +74,7 @@ public class ProductController {
 
         for (Iterator<com.ifi.tp.trainers.bo.Product> iter = inventory.listIterator(); iter.hasNext(); ) {
             com.ifi.tp.trainers.bo.Product p = iter.next();
-            if (p.getId() == product.getId()) {
+            if (p.getProductId() == product.getId()) {
                 exist = true;
                 p.setQuantity(p.getQuantity()+quantity);
             }
@@ -82,7 +82,7 @@ public class ProductController {
 
         if(!exist){
             com.ifi.tp.trainers.bo.Product p2 = new com.ifi.tp.trainers.bo.Product();
-            p2.setQuantity(1);
+            p2.setQuantity(quantity);
             p2.setProductId(productId);
             p2.setDetail(product);
             inventory.add(p2);

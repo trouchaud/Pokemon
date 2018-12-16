@@ -25,11 +25,11 @@ public class TrainerController {
 
     @GetMapping("/arena/{name}")
     String getTrainers(HttpServletRequest request, ModelMap model, @PathVariable String name){
-        String user = (String)request.getSession().getAttribute("user");
-        if(!name.equals(user)){
-            model.addAttribute("message", "You are not authorised to do that");
-            return "default/erreur";
-        }
+//        String user = (String)request.getSession().getAttribute("user");
+//        if(!name.equals(user)){
+//            model.addAttribute("message", "You are not authorised to do that");
+//            return "default/erreur";
+//        }
         model.addAttribute("trainer", trainerService.getTrainer(name));
         return viewDirectory.concat("arenaFight");
     }

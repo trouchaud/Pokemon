@@ -1,10 +1,5 @@
 package com.ifi.tp.shop.bo;
 
-import com.ifi.tp.pokemonTypes.bo.PokemonType;
-import com.ifi.tp.pokemonTypes.service.PokemonService;
-import com.ifi.tp.trainers.bo.Pokemon;
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class Product {
     private int id;
     private String name;

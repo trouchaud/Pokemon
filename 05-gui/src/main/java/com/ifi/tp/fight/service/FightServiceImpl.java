@@ -34,6 +34,19 @@ public class FightServiceImpl implements FightService {
         return Arrays.asList(fights);
     }
 
+    @Override
+    public List<Fight> getAllFightsBetweenFighter(String name1, String name2){
+        var url = fightServiceUrl + "/fights/{name1}/{name2}";
+        var fights = restTemplate.getForObject(url, Fight[].class, name1, name2);
+        return Arrays.asList(fights);
+    }
+
+    @Override
+    public Fight setFight(String name1, String name2){
+        var url = fightServiceUrl + "/fights/engage/{name1}/{name2}";
+        return restTemplate.getForObject(url, Fight.class, name1, name2);
+    }
+
     @Value("${fight.service.url}")
     void setPokemonServiceUrl(String fightServiceUrl) {
         this.fightServiceUrl = fightServiceUrl;
