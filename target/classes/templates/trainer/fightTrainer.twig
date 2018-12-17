@@ -1,0 +1,24 @@
+{% if app.request.session.user %}
+    {% set user = app.request.session.user %}
+{% else %}
+    {% set user = "Ash" %}
+{% endif %}
+
+<h1 class="pt-md-5">Other fighters</h1>
+
+<div class="card-deck">
+    {% for trainer in trainers %}
+        <div class="col-md-3">
+            <div class="card shadow-sm mb-3">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">{{ trainer.name }}</h4>
+                </div>
+                <img class="card-img-top" src="{{ trainer.picture }}" style="" alt="">
+                <div class="card-body">
+                    <a class="btn btn-lg btn-block btn-outline-danger" href="/fight/engage/{{ user }}/{{ trainer.name }}">Fight</a>
+                    <a class="btn btn-lg btn-block btn-outline-primary" href="/fight/{{ user }}/{{ trainer.name }}">Fight History</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,36 @@
+{% extends '../default/base.twig' %}
+
+{% block title %}Shop - Buy{% endblock %}
+
+{% block row %}
+    PokeDollard: {{ trainer.money }}$
+
+    <div class="card-deck">
+        <div class="col-md-3">
+            <div class="card shadow-sm mb-3">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">{{ product.name }}</h4>
+                </div>
+                <img class="card-img-top img-product" src="{{ product.sprite }}" style="" alt="">
+                <div class="card-body">
+                    <p class="card-text">{{ product.property }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form action="/shop/{{ user }}/product/{{ product.id }}" method="POST">
+        <div class="form-group row col-">
+            <label for="quantity" class="col-2 col-form-label">Quantity</label>
+            <div class="col-2">
+                <input class="form-control" type="number"
+                       min="{%  if trainer.money > product.price %}1{% else %}0{% endif %}"
+                       max="{{ round(trainer.money / product.price,'FLOOR') }}"
+                       value="{%  if trainer.money > product.price %}1{% else %}0{% endif %}"
+                       id="quantity" name="quantity">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+{% endblock %}

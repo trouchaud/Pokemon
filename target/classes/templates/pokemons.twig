@@ -1,0 +1,47 @@
+{% extends 'default/base.twig' %}
+
+{% block container %}
+    <h1 class="pt-md-5">Pokemons</h1>
+
+    <div class="btn-group pb-md-5" role="group">
+        <a href="/pokemons?view=front" type="button"
+           class="btn {% if view_front %}
+                            btn-primary
+                       {% endif %}
+                       {% if view_back %}
+                            btn-secondary
+                       {% endif %}">Front</a>
+        <a href="/pokemons?view=back" type="button"
+           class="btn {% if view_back %}
+                            btn-primary
+                       {% endif %}
+                       {% if view_front %}
+                            btn-secondary
+                       {% endif %}">Back</a>
+    </div>
+
+    <div class="card-deck">
+        {% for pokemon in pokemons %}
+            <div class="col-md-3">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">{{ pokemon.name }} <span class="badge badge-secondary">Id {{ pokemon.id }}</span></h4>
+                    </div>
+                    {% if view_back %}
+                        <img class="card-img-top" src="{{ pokemon.sprites.front_default }}" alt="Pokemon">
+                    {% endif %}
+                    {% if view_front %}
+                        <img class="card-img-top" src="{{ pokemon.sprites.back_default }}" alt="Pokemon">
+                    {% endif %}
+
+                    <div class="card-body">
+                        <span class="badge badge-primary">Speed : {{ pokemon.stats.speed }}</span>
+                        <span class="badge badge-primary">Attack : {{ pokemon.stats.attack }}</span>
+                        <span class="badge badge-primary">Defense : {{ pokemon.stats.defense }}</span>
+                        <span class="badge badge-primary">HP : {{ pokemon.stats.hp }}</span>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

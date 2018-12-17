@@ -1,0 +1,37 @@
+{% extends "../default/base.twig" %}
+
+{% block title %}Use {{ product.name }}{% endblock %}
+
+{% block row %}
+    <div class="card-deck">
+        {% for team in teams %}
+
+            {% set globalHp = team.type.stats.hp + team.level %}
+            {% set pourcentageHp = team.hp / globalHp * 100 %}
+            <div class="col-md-3">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">{{ team.type.name }} <span class="badge badge-secondary">Level {{ team.level }}</span></h4>
+                    </div>
+                    <img class="card-img-top" src="{{ team.type.sprites.front_default }}" alt="Card image cap">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            HP :
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: {{ pourcentageHp }}%" aria-valuenow="{{ team.hp }}" aria-valuemin="0" aria-valuemax="{{ team.type.stats.hp + team.level }}"></div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">Base stats : <span class="badge badge-primary">Speed : {{ team.type.stats.speed + team.level }}</span>
+                            <span class="badge badge-primary">Attack : {{ team.type.stats.attack + team.level }}</span>
+                            <span class="badge badge-primary">Defense : {{ team.type.stats.defense + team.level }}</span>
+                            <span class="badge badge-primary">HP : {{ team.hp }} / {{ team.type.stats.hp + team.level }}</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a class="btn btn-lg btn-block btn-outline-primary"
+                           href="/shop/{{ user }}/product/{{ product.id }}/use/{{ team.id }}">Use</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
