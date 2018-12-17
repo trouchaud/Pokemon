@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f82ccf8-329d-43fc-a3c5-1129675aa975" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fight/hystoryBetween.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/shop/bo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fight/history.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fight/history.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/fightTrainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/fightTrainer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainer/team.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainer/team.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/FightController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/FightController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/TrainerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/controller/TrainerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ifi/tp/fight/service/FightServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fight/history.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fight/tableHistory.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fight/tableHistory.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/trainer/fightTrainer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/trainer/fightTrainer.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,15 +92,16 @@
         <counts>
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.107" value="2" />
+          <entry key="project.open.time.114" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="104" />
+          <entry key="java" value="105" />
           <entry key="json" value="8" />
           <entry key="png" value="23" />
           <entry key="properties" value="4" />
@@ -130,7 +113,7 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="23" />
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="105" />
           <entry key="JSON" value="8" />
           <entry key="Properties" value="4" />
           <entry key="Twig" value="68" />
@@ -161,22 +144,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fight/service/FightServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1224">
+              <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/TrainerWebApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -184,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="31" column="11" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="306">
+              <caret line="31" column="11" selection-start-line="27" selection-start-column="10" selection-end-line="31" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,7 +195,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -232,7 +212,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="986">
               <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -380,8 +360,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="43" />
-    <option name="width" value="1330" />
-    <option name="height" value="725" />
+    <option name="width" value="1320" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -389,6 +369,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -574,7 +555,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,7 +565,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544923214466" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545040585577" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api-pokemon" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -670,7 +650,8 @@
       <workItem from="1544712725706" duration="413000" />
       <workItem from="1544782394553" duration="11389000" />
       <workItem from="1544816430545" duration="23991000" />
-      <workItem from="1544885205314" duration="17418000" />
+      <workItem from="1544885205314" duration="18081000" />
+      <workItem from="1545039492389" duration="852000" />
     </task>
     <servers />
   </component>
@@ -686,13 +667,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91510000" />
+    <option name="totallyTimeSpent" value="93025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="36" width="1366" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2469697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25075758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -860,17 +841,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/nav.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -882,19 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,9 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,13 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/TrainerWebApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -973,12 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,9 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,6 +959,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="11" selection-start-line="27" selection-start-column="10" selection-end-line="31" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1040,7 +996,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/tableHistory.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/hystoryBetween.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/history.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
         </state>
       </provider>
     </entry>
@@ -1072,44 +1052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/hystoryBetween.twig">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/TrainerWebApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="107" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fight/history.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="31" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
