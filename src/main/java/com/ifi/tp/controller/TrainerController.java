@@ -1,5 +1,7 @@
 package com.ifi.tp.controller;
 
+import com.ifi.tp.pokemonTypes.bo.PokemonType;
+import com.ifi.tp.trainers.bo.Pokemon;
 import com.ifi.tp.trainers.bo.Trainer;
 import com.ifi.tp.trainers.service.TrainerService;
 
@@ -50,6 +52,7 @@ public class TrainerController {
     String getTeam(ModelMap model, @PathVariable String name){
         Trainer trainer = trainerService.getTrainer(name);
         model.addAttribute("teams", trainer.getTeam());
+        model.addAttribute("trainer", trainer);
         return viewDirectory.concat("team");
     }
 
@@ -77,6 +80,31 @@ public class TrainerController {
         model.addAttribute("trainer",trainer);
 
         return "product/inventory";
+    }
+
+    @GetMapping("/trainers/{name}/pokemon/{pokemonId}/remove")
+    String getInventory(ModelMap model,
+                        @PathVariable String name,
+                        @PathVariable String pokemonId){
+        Trainer trainer = trainerService.getTrainer(name);
+
+        model.addAttribute("products", trainer.getInventory());
+        model.addAttribute("trainer",trainer);
+
+        List<Pokemon> team = (ArrayList<Pokemon>)trainer.getTeam();
+        List<Pokemon> nTeam = new ArrayList<>();
+
+        for (Iterator<Pokemon> iter = team.listIterator(); iter.hasNext(); ) {
+            Pokemon pok = iter.next();
+            if (pok.getId() != Integer.parseInt(pokemonId)) {
+                nTeam.add(pok);
+            }
+        }
+
+        trainer.setTeam(nTeam);
+        trainerService.putTrainer(trainer);
+
+        return "redirect:/trainers/"+name;
     }
 
 }

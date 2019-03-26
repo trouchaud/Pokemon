@@ -83,19 +83,19 @@ public class TrainerServiceImpl implements TrainerService {
         this.simpMessagingTemplate = simpMessagingTemplate;
     }
 
-    @JmsListener(destination="notification")
-    public void receiveNotification(HPNotification notification){
-        var pokemonType = pokemonService.getPokemonType(notification.getPokemon().getPokemonNumber());
-
-        String message;
-        if(notification.isFullHP()){
-            message = String.format("Your %s has recovered all of its HP !", pokemonType.getName());
-        }
-        else{
-            message = String.format("Your %s has recovered one HP !", pokemonType.getName() );
-        }
-
-        simpMessagingTemplate.convertAndSendToUser(notification.getTrainer().getName(), "/topic/notification", message);
-    }
+//    @JmsListener(destination="notification")
+//    public void receiveNotification(HPNotification notification){
+//        var pokemonType = pokemonService.getPokemonType(notification.getPokemon().getPokemonNumber());
+//
+//        String message;
+//        if(notification.isFullHP()){
+//            message = String.format("Your %s has recovered all of its HP !", pokemonType.getName());
+//        }
+//        else{
+//            message = String.format("Your %s has recovered one HP !", pokemonType.getName() );
+//        }
+//
+//        simpMessagingTemplate.convertAndSendToUser(notification.getTrainer().getName(), "/topic/notification", message);
+//    }
 
 }

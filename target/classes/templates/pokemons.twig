@@ -1,7 +1,12 @@
 {% extends 'default/base.twig' %}
 
 {% block container %}
-    <h1 class="pt-md-5">Pokemons</h1>
+    {%  if option == "capture" %}
+        <h1 class="pt-md-5">Pokemons Capture</h1>
+    {% else %}
+        <h1 class="pt-md-5">Pokemons</h1>
+    {% endif %}
+
 
     <div class="btn-group pb-md-5" role="group">
         <a href="/pokemons?view=front" type="button"
@@ -39,6 +44,7 @@
                         <span class="badge badge-primary">Attack : {{ pokemon.stats.attack }}</span>
                         <span class="badge badge-primary">Defense : {{ pokemon.stats.defense }}</span>
                         <span class="badge badge-primary">HP : {{ pokemon.stats.hp }}</span>
+                        <a class="btn btn-lg btn-block btn-outline-primary" href="/shop/{{ user }}/product/{{ productId }}/use/{{ pokemon.id }}">Capture</a>
                     </div>
                 </div>
             </div>

@@ -104,20 +104,39 @@ public class ProductController {
         Trainer trainer = trainerService.getTrainer(name);
         List<Pokemon> nPokemon = new ArrayList<Pokemon>();
 
-        // TODO action capture
+        Product product = productService.getProduct(productId);
 
-        for (Iterator<Pokemon> iter = trainer.getTeam().listIterator(); iter.hasNext(); ) {
-            Pokemon p = iter.next();
-            PokemonType initialPokemon = pokemonService.getPokemonType(p.getPokemonNumber());
-            if (p.getHp() < initialPokemon.getStats().getHp() + p.getLevel()) {
-                nPokemon.add(p);
+        if(product.getName().equals("pokeball")){
+            model.addAttribute("option", "capture");
+            model.addAttribute("productId", productId);
+            model.addAttribute("pokemons", pokemonService.listPokemonsTypes());
+
+            if("front".equals(view)){
+                model.addAttribute("view_front", true);
             }
+            else{
+                model.addAttribute("view_back", true);
+            }
+
+            return "pokemons";
         }
+        else if(product.getName().equals("hyper recall")){
+            return "redirect:/shop/"+name+"/product/"+productId+"/use/0";
+        }
+        else{
+            for (Iterator<Pokemon> iter = trainer.getTeam().listIterator(); iter.hasNext(); ) {
+                Pokemon p = iter.next();
+                PokemonType initialPokemon = pokemonService.getPokemonType(p.getPokemonNumber());
+                if (p.getHp() < initialPokemon.getStats().getHp() + p.getLevel()) {
+                    nPokemon.add(p);
+                }
+            }
 
-        model.addAttribute("product", productService.getProduct(productId));
-        model.addAttribute("teams", nPokemon);
+            model.addAttribute("product", productService.getProduct(productId));
+            model.addAttribute("teams", nPokemon);
 
-        return viewDirectory.concat("useConsume");
+            return viewDirectory.concat("useConsume");
+        }
     }
 
     @GetMapping("/shop/{name}/product/{productId}/use/{pokemonId}")
@@ -137,10 +156,18 @@ public class ProductController {
             }
         }
 
-        for (Iterator<Pokemon> iter = trainer.getTeam().listIterator(); iter.hasNext(); ) {
-            Pokemon p = iter.next();
-            if (pokemonId == p.getId()) {
-                searchProduct.use(p, pokemonService.getPokemonType(p.getPokemonNumber()));
+        if(searchProduct.getDetail().getName().equals("pokeball")){
+            searchProduct.use(trainer, pokemonService.getPokemonType(pokemonId));
+        }
+        else if(searchProduct.getDetail().getName().equals("hyper recall")){
+            searchProduct.use(trainer);
+        }
+        else {
+            for (Iterator<Pokemon> iter = trainer.getTeam().listIterator(); iter.hasNext(); ) {
+                Pokemon p = iter.next();
+                if (pokemonId == p.getId()) {
+                    searchProduct.use(p, pokemonService.getPokemonType(p.getPokemonNumber()));
+                }
             }
         }
 

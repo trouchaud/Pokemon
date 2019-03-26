@@ -1,3 +1,7 @@
 .img-product{
     padding: 10% 20%;
 }
+
+.card-header *{
+    text-transform: capitalize;
+}

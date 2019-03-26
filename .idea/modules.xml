@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ifiPokemon.iml" filepath="$PROJECT_DIR$/.idea/ifiPokemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp-05-gui.iml" filepath="$PROJECT_DIR$/tp-05-gui.iml" />
     </modules>
   </component>
 </project>

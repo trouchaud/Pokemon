@@ -2,6 +2,10 @@ package com.ifi.tp.trainers.bo;
 
 import com.ifi.tp.pokemonTypes.bo.PokemonType;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class Product {
     private int id;
 
@@ -44,9 +48,9 @@ public class Product {
     }
 
     public void use(Pokemon pokemon, PokemonType initialPokemon){
-        if(this.detail.getName().equals("potion")||this.detail.getName().equals("super potion")){
+        if(this.getDetail().getName().equals("potion")||this.getDetail().getName().equals("super potion")){
             int adding = 0;
-            if(this.detail.getName().equals("potion")) adding = 20;
+            if(this.getDetail().getName().equals("potion")) adding = 20;
             else adding = 50;
 
             int hp = pokemon.getHp();
@@ -56,5 +60,50 @@ public class Product {
             }
         }
         this.setQuantity(this.getQuantity() - 1);
+    }
+
+    public void use(Trainer trainer, PokemonType pokemon){
+        if(!this.getDetail().getName().equals("pokeball")){
+            return;
+        }
+        List<Pokemon> team = (ArrayList<Pokemon>) trainer.getTeam();
+        int level = 1;
+
+        if(team.size() > 0){
+            level = team.get(0).getLevel();
+        }
+
+        if(team.size()>=6){
+            return;
+        }
+
+        Pokemon newPokemon = new Pokemon();
+        newPokemon.setType(pokemon);
+        newPokemon.setPokemonNumber(pokemon.getId());
+        int hp = pokemon.getStats().getHp();
+
+        if(level>1){
+            hp += level;
+        }
+
+        newPokemon.setHp(hp);
+        newPokemon.setLevel(level);
+        team.add(newPokemon);
+        trainer.setTeam(team);
+
+        this.setQuantity(this.getQuantity() - 1);
+    }
+
+    public void use(Trainer trainer){
+        if(!this.getDetail().getName().equals("hyper recall")){
+            return;
+        }
+
+        for (Iterator<Pokemon> iter = trainer.getTeam().listIterator(); iter.hasNext(); ) {
+            Pokemon pok = iter.next();
+            pok.setHp(pok.getType().getStats().getHp()+pok.getLevel());
+        }
+
+        this.setQuantity(this.getQuantity()-1);
     }
 }

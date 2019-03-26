@@ -1,4 +1,11 @@
+{% if app.request.session.user %}
+    {% set user = app.request.session.user %}
+{% else %}
+    {% set user = "Ash" %}
+{% endif %}
+
 <div class="card-deck">
+
     {% for team in teams %}
 
         {% set globalHp = team.type.stats.hp + team.level %}
@@ -18,11 +25,16 @@
                         </div>
                     </li>
                     <li class="list-group-item">Base stats : <span class="badge badge-primary">Speed : {{ team.type.stats.speed + team.level }}</span>
+                        <span class="badge badge-primary">Speed : {{ team.type.stats.speed + team.level }}</span>
                         <span class="badge badge-primary">Attack : {{ team.type.stats.attack + team.level }}</span>
                         <span class="badge badge-primary">Defense : {{ team.type.stats.defense + team.level }}</span>
-                        <span class="badge badge-primary">HP : {{ team.hp }} / {{ team.type.stats.hp + team.level }}</span></li>
-                </ul>
+                        <span class="badge badge-primary">HP : {{ team.hp }} / {{ team.type.stats.hp + team.level }}</span>
 
+                        {% if trainer.name == user %}
+                            <a class="btn btn-lg btn-block btn-outline-danger" href="/trainers/{{ user }}/pokemon/{{ team.id }}/remove">Remove</a>
+                        {% endif %}
+                    </li>
+                </ul>
             </div>
         </div>
     {% endfor %}
